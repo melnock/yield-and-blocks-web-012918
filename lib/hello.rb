@@ -10,6 +10,7 @@ def hello_t(arr)
 else
   puts "Hey! No block was given!"
 end
+end
 
 # call your method here!
 hello_t(["Tim", "Tom", "Jim"]) {|name| if name.start_with?("T")
